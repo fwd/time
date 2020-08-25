@@ -1,6 +1,9 @@
 module.exports = (int, string) => {
 
-  var ms
+  if (!int || !string) {
+    throw "Int or String not provided";
+    return
+  }
 
   if (string === 'seconds' || string === 'second') {
     return int * 1000
