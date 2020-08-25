@@ -26,11 +26,11 @@ time(5, 'hours')
 
 ## Available Intervals
 
-- Second(s)
-- Minute(s)
-- Hour(s)
-- Month(s)
-- Year(s)
+- second(s)
+- minute(s)
+- hour(s)
+- month(s)
+- year(s)
 
 ## Author
 
