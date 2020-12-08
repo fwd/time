@@ -1,13 +1,13 @@
-<h1 align="center">@fwd/time ⏰</h1>
+![Cover](https://raw.githubusercontent.com/fwd/time/master/.github/cover.png)
 
-> A NodeJS function for expressive time to millisecond conversion.
+<h1 align="center">@fwd/time 💾</h1>
+
+> A NodeJS package to simplify milliseconds.
 
 ## Install
 
 ```sh
 npm install @fwd/time
-# or
-yarn add @fwd/time
 ```
 
 ## Usage
@@ -16,13 +16,19 @@ yarn add @fwd/time
 
 const cron = require('@fwd/time')
 
-time(1, 'second')
-// 1000 ms
+time(1, 'second') // 1000 ms
 
-time(5, 'hours')
-// 18000000 ms
+time(5, 'hours') // 18000000 ms
 
 ```
+
+## Parameters
+
+```js
+
+time(integer, timeInterval)
+
+````
 
 ## Available Intervals
 
@@ -32,28 +38,25 @@ time(5, 'hours')
 - month(s)
 - year(s)
 
-## Author
+<br> 
 
-👤  **Forward Miami**
+## 👤 Author
+
+**Forward Miami**
 
 * Github: [@fwd](https://github.com/fwd)
 * Website: [https://forward.miami](https://forward.miami)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/fwd/time/issues).
+Contributions, issues and feature requests are welcome! Feel free to check [issues page](https://github.com/fwd/time/issues).
 
-## Show your support
+## ⭐️ Show your support
 
-Help us continue maintianing and making cool stuff.
+Give a star if this project helped you, and help us continue maintaining this project by contributing to it or becoming a sponsor.
 
 [Become a sponsor to fwd](https://github.com/sponsors/fwd)
 
-Give a ⭐️ if this project helped you!
-
 ## 📝 License
 
-### MIT
-
-Copyright © 2020 [Forward Miami](https://forward.miami).
-
+Copyright © 2020 [Forward Miami](https://forward.miami). This project is [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) licensed.
