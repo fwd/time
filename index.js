@@ -13,12 +13,12 @@ module.exports = (int, string) => {
         return int * 3600000
     }
     if (string === 'months' || string === 'month') {
-        var hoursInAMonth = 730.001
+        var hoursInAMonth = 730.001 // according to the tome of Google
         var millisecondsInAMonth = hoursInAMonth * 3600000
         return int * millisecondsInAMonth
     }
     if (string === 'years' || string === 'year') {
-        var hoursInAYear = 8760
+        var hoursInAYear = 8760 // according to the tome of Google
         var millisecondsInAYear = hoursInAYear * 3600000
         return int * millisecondsInAYear
     }
