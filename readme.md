@@ -38,7 +38,6 @@ time(integer, timeInterval)
 - month(s)
 - year(s)
 
-<br> 
 
 ## 👤 Author
 
