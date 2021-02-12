@@ -1,27 +1,16 @@
 {
-  "name": "@fwd/cron",
+  "name": "@fwd/time",
   "version": "0.0.1",
   "description": "A NodeJS function for expressive time to millisecond conversion.",
   "main": "index.js",
   "author": "Forward Miami <hello@forward.miami>",
   "license": "MIT",
-  "homepage": "https://github.com/fwd/cron",
+  "homepage": "https://github.com/fwd/time",
   "repository": {
     "type": "git",
-    "url": "git@github.com:fwd/cron.git"
+    "url": "git@github.com:fwd/time.git"
   },
   "bugs": {
-    "url": "https://github.com/fwd/cron/issues"
-  },
-  "devDependencies": {
-    "chai": "^2.2.0",
-    "gulp": "^3.8.11",
-    "gulp-exit": "0.0.2",
-    "gulp-istanbul": "^0.7.0",
-    "gulp-jshint": "^1.10.0",
-    "gulp-mocha": "^2.0.1",
-    "jshint-stylish": "^1.0.1",
-    "sinon": "^1.14.1",
-    "sinon-chai": "^2.7.0"
+    "url": "https://github.com/fwd/time/issues"
   }
 }
