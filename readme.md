@@ -14,7 +14,7 @@ npm install @fwd/time
 
 ```js
 
-const cron = require('@fwd/time')
+const time = require('@fwd/time')
 
 time(1, 'second') // 1000 ms
 
