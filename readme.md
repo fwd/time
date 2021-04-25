@@ -7,7 +7,7 @@
 ## Install
 
 ```sh
-npm install @fwd/time
+npm install fwd/time
 ```
 
 ## Usage
