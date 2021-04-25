@@ -38,7 +38,7 @@ time(integer, timeInterval)
 - month(s)
 - year(s)
 
-**Forward Miami**
+## 👤 Author
 
 * Github: [@fwd](https://github.com/fwd)
 * Website: [https://forward.miami](https://forward.miami)
