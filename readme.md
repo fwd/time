@@ -53,7 +53,7 @@ Contributions, issues and feature requests are welcome! <br />Feel free to check
 
 MIT License
 
-Copyright © 2021 [Forward Miami](https://forward.miami).
+Copyright © [nano2dev](https://github.com/nano2dev).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
