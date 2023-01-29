@@ -12,6 +12,9 @@ module.exports = (int, string) => {
     if (string === 'hours' || string === 'hour') {
         return int * 3600000
     }
+    if (string === 'days' || string === 'day') {
+        return int * 86400000
+    }
     if (string === 'months' || string === 'month') {
         var hoursInAMonth = 730.001 // according to the tome of Google
         var millisecondsInAMonth = hoursInAMonth * 3600000
@@ -22,4 +25,5 @@ module.exports = (int, string) => {
         var millisecondsInAYear = hoursInAYear * 3600000
         return int * millisecondsInAYear
     }
+    return throw `Time '${string}' not supported.`;
 }
