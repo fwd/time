@@ -35,6 +35,7 @@ time(integer, timeInterval)
 - second(s)
 - minute(s)
 - hour(s)
+- day(s)
 - month(s)
 - year(s)
 
