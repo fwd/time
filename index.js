@@ -25,5 +25,5 @@ module.exports = (int, string) => {
         var millisecondsInAYear = hoursInAYear * 3600000
         return int * millisecondsInAYear
     }
-    return throw `Time '${string}' not supported.`;
+    throw new Error(`Time '${string}' not supported.`)
 }
